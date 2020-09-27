@@ -1,0 +1,359 @@
+/*Estilo para todas las paginas*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap');
+body {
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../imagenes/ciencia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+nav a {
+    background-color: rgba(184, 103, 28, 0.726);
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: black;
+    color: rgb(219, 92, 7);
+}
+
+
+/* Pagina Centros */
+
+.centrosmap {
+    background-color: black;
+    color: rgb(253, 252, 252);
+    text-align: center;
+    opacity: 0.9;
+}
+
+menu {
+    text-align: center;
+}
+
+
+/*todos loa h1 */
+
+h1 {
+    color: rgb(219, 92, 7, 0.726);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    background-color: black;
+}
+
+main {
+    width: 80%;
+    background-color: black;
+    height: 800px;
+    margin: auto;
+    padding: 10px;
+    opacity: 0.9;
+    box-sizing: border-box;
+}
+
+.baner {
+    background-image: url(../imagenes/banner.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+
+.nosotros {
+    background-image: url(../imagenes/bosque.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+
+.formulario {
+    width: 500px;
+    background-color: gray;
+    height: 700px;
+    margin: auto;
+    padding: 20px;
+    opacity: 0.9;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 2px black;
+}
+
+.btnenv,
+.btnrest {
+    width: 100px;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: rgb(219, 92, 7);
+    border-radius: 8px;
+}
+
+
+/*.btnrest {
+    width: 100px;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: rgb(219, 92, 7);
+    border-radius: 8px;
+}*/
+
+
+/*Todos los h2 */
+
+h2 {
+    color: rgb(219, 92, 7);
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+
+/*Todos los h3 */
+
+h3 {
+    color: rgb(219, 92, 7);
+    text-align: center;
+}
+
+.section {
+    width: 900px;
+    height: 800px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    color: coral;
+    text-align: center;
+    margin: auto;
+    border: 1px solid white;
+    float: left;
+    width: 200px;
+    height: 80px;
+    padding: 18px;
+}
+
+table td {
+    border: 1px solid white;
+}
+
+table tr:hover {
+    background: black;
+}
+
+table td:hover {
+    background: rgb(219, 92, 7);
+    color: black;
+}
+
+.homeindex,
+.textnosotros {
+    background-color: black;
+    color: rgb(252, 250, 250);
+    padding: 10px;
+    text-align: justify;
+}
+
+.contact {
+    background: black;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    min-width: 320;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: center;
+    height: inherit;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.social-link {
+    display: inline-block;
+    width: 3.12em;
+    height: 3.12em;
+    background-size: 3.12em 3.12em;
+    margin: 0 0.6em;
+}
+
+.social-link.twitter {
+    background-image: url("../imagenes/twiter2.ico");
+}
+
+.social-link.twitter:hover {
+    background-image: url("../imagenes/twiter.ico")
+}
+
+.social-link.facebook {
+    background-image: url("../imagenes/facebook2.ico");
+}
+
+.social-link.facebook:hover {
+    background-image: url("../imagenes/facebook.ico");
+}
+
+.social-link.github {
+    background-image: url("../imagenes/git2.ico");
+}
+
+.social-link.github:hover {
+    background-image: url("../imagenes/git.ico");
+}
+
+.social-link.instagram {
+    background-image: url("../imagenes/instagran2.ico");
+}
+
+.social-link.instagram:hover {
+    background-image: url("../imagenes/instagran.ico");
+}
+
+.social-link.linkedin {
+    background-image: url("../imagenes/linkedi2.ico");
+}
+
+.social-link.linkedin:hover {
+    background-image: url("../imagenes/linkedi.ico");
+}
+
+.social-link.youtube {
+    background-image: url("../imagenes/youtube2.ico");
+}
+
+.social-link.youtube:hover {
+    background-image: url("../imagenes/youtube.ico");
+}
+
+
+/*todos los h4 */
+
+h4 {
+    text-align: center;
+    color: rgb(96, 98, 99);
+    font-size: 15px;
+    background-color: black;
+}
+
+
+/*Todos los Responsi */
+
+@media screen and (max-width:1058px) {
+    main {
+        width: 100%;
+        overflow: scroll;
+    }
+    .contact {
+        width: 100%;
+    }
+    nav a {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    main {
+        width: 100%;
+        height: auto;
+        overflow: scroll;
+    }
+    .contact {
+        width: 100%;
+    }
+    nav a {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    h4 {
+        font-size: 9px;
+    }
+    .baner {
+        height: 200px;
+    }
+    main {
+        width: 100%;
+        height: auto;
+    }
+    .homeindex {
+        overflow: scroll;
+        font-size: 10px;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    nav a {
+        width: 50px;
+        height: 50px;
+        padding: 2px;
+        font-size: 12px;
+    }
+    .social-link.twitter,
+    .social-link.instagram,
+    .social-link.linkedin,
+    .social-link.youtube,
+    .social-link.github,
+    .social-link.facebook {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        background-repeat: no-repeat;
+    }
+    .section {
+        width: 100%;
+        height: auto;
+    }
+    .video1 {
+        width: 280px;
+        height: 157px;
+    }
+    .video2 {
+        width: 280px;
+        height: 157px;
+    }
+    .formulario {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+}
