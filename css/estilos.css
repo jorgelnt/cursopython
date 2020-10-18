@@ -152,9 +152,9 @@ table {
     margin: auto;
     border: 1px solid white;
     float: left;
-    width: 200px;
+    width: 320px;
     height: 80px;
-    padding: 18px;
+    padding: 10px;
 }
 
 table td {
